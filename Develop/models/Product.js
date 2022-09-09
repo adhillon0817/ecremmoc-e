@@ -15,7 +15,28 @@ Product.init(
       references: {
         model: 'category',
         key: 'id'
-      }
+      },
+    
+    category_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      },
+    Product:{
+      type: DataTypes.INTEGER,
+      references: {
+        model: "Product",
+        key: 'id',
+        allowNull: false,
+        primaryKey: true,
+        autoIncrement: true, 
+      },
+
+
+    }
+
+    }
+    
+      //refer to read me to make category_id for each listed thing.
     }
   },
   {
