@@ -83,7 +83,7 @@ Your database should contain the following four models, including the requiremen
   * `id`
   
     * Integer.
-  
+
     * Doesn't allow null values.
   
     * Set as primary key.
